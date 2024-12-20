@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header {
@@ -100,6 +101,10 @@ header {
 
 @media (max-width: 500px){
     .movie {
-        height: 800px;
+        height: 600px;
+    }
+
+    .movie img{
+        width: 150%;
     }
 }
